@@ -245,3 +245,26 @@ Every project is engineered for production-grade rigor, featuring modular archit
     <td valign="middle">
       <img src="https://github-readme-stats.vercel.app/api?username=omchandra0907-jpg&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=94a3b8" height="175" alt="GitHub Stats" />
     </td>
+    <td valign="middle">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omchandra0907-jpg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8" height="175" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=omchandra0907-jpg&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=ff007f&currStreakLabel=00e5ff" height="160" alt="Streak Stats" />
+
+</div>
+
+---
+
+### 📬 Get In Touch
+
+- **GitHub:** [@omchandra0907-jpg](https://github.com/omchandra0907-jpg)
+- **Email:** [omchandra0907@gmail.com](mailto:omchandra0907@gmail.com)
+- **Focus Areas:** Systems programming, cybersecurity deception platforms, privacy-preserving cryptography, and interactive visual computing.
+
+<div align="center">
+  <sub>Built with relentless curiosity & high-performance engineering. © 2026 Om Chandra.</sub>
+</div>
