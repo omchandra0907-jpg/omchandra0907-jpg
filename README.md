@@ -140,3 +140,16 @@ Every project is engineered for production-grade rigor, featuring modular archit
         <p><strong>Interactive Web Cryptography Lab:</strong> Client-side deniable steganography powered by Web Crypto API (AES-GCM + PBKDF2/Argon2). Test dual embedding, inspect LSB bit-plane visual representations, and verify tamper alerts.</p>
         <p>
           🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/ghost-drop">github.com/omchandra0907-jpg/ghost-drop</a><br/>
+          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/ghost-drop/">omchandra0907-jpg.github.io/ghost-drop</a>
+        </p>
+      </td>
+    </tr>
+    <!-- Project 4: chrono-git -->
+    <tr>
+      <td valign="top">
+        <h3>🏙️ <a href="https://github.com/omchandra0907-jpg/chrono-git">chrono-git</a></h3>
+        <p><strong>3D Git Repository Time-Machine & City Visualizer in TypeScript</strong></p>
+        <p>Renders codebases as evolving 3D neon metropolises using squarified treemaps, WebGL shaders, and GPU instancing.</p>
+        <ul>
+          <li><strong>Treemap Engine:</strong> Pure TypeScript squarified treemap layout conserving hierarchical directory boundaries.</li>
+          <li><strong>GPU Instancing:</strong> Renders entire repository structures within a single <code>THREE.InstancedMesh</code> at 60 FPS.</li>
