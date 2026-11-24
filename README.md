@@ -123,3 +123,20 @@ Every project is engineered for production-grade rigor, featuring modular archit
           <li><strong>Cryptographic Framing:</strong> Argon2id KDF derivation, 16-byte random salt, and AES-256-GCM authentication.</li>
           <li><strong>Zero Collision PRNG:</strong> NumPy vectorized coordinate permutation guarantees zero overlapping LSB positions.</li>
           <li><strong>Entropy Masking:</strong> Uniform random noise (<code>os.urandom</code>) overwrites all untouched bits, achieving PSNR &gt; 51 dB.</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/Crypto-AES--256--GCM-FFD600?style=flat-square" />
+          <img src="https://img.shields.io/badge/KDF-Argon2id-00E676?style=flat-square" />
+          <img src="https://img.shields.io/badge/Stego-NumPy-013243?style=flat-square&logo=numpy" />
+        </p>
+      </td>
+      <td valign="top">
+        <br/>
+        <p align="center">
+          <a href="https://omchandra0907-jpg.github.io/ghost-drop/">
+            <img src="https://img.shields.io/badge/🚀_Live_Demo-Web_Stego_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="ghost-drop Live Demo" />
+          </a>
+        </p>
+        <p><strong>Interactive Web Cryptography Lab:</strong> Client-side deniable steganography powered by Web Crypto API (AES-GCM + PBKDF2/Argon2). Test dual embedding, inspect LSB bit-plane visual representations, and verify tamper alerts.</p>
+        <p>
+          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/ghost-drop">github.com/omchandra0907-jpg/ghost-drop</a><br/>
