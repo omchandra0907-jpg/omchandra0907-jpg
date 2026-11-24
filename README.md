@@ -167,3 +167,18 @@ Every project is engineered for production-grade rigor, featuring modular archit
         <p align="center">
           <a href="https://omchandra0907-jpg.github.io/chrono-git/">
             <img src="https://img.shields.io/badge/🚀_Live_Demo-3D_City_Visualizer-00E5FF?style=for-the-badge&labelColor=0d1117" alt="chrono-git Live Demo" />
+          </a>
+        </p>
+        <p><strong>Interactive 3D WebGL City Scroller:</strong> Direct in-browser 3D codebase visualizer with Three.js orbit controls, camera pan/zoom, commit scrubber, building inspection cards, and instant repo URL ingestion.</p>
+        <p>
+          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/chrono-git">github.com/omchandra0907-jpg/chrono-git</a><br/>
+          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/chrono-git/">omchandra0907-jpg.github.io/chrono-git</a>
+        </p>
+      </td>
+    </tr>
+    <!-- Project 5: beat-lens -->
+    <tr>
+      <td valign="top">
+        <h3>🎵 <a href="https://github.com/omchandra0907-jpg/beat-lens">beat-lens</a></h3>
+        <p><strong>Real-Time 48-Band Audio Visualizer & Mood Classifier in Python</strong></p>
+        <p>A dual-rate acoustic signal processing pipeline combining real-time frequency analysis with machine-learning mood classification.</p>
