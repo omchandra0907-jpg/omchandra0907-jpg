@@ -86,3 +86,13 @@ Every project is engineered for production-grade rigor, featuring modular archit
         <h3>🛡️ <a href="https://github.com/omchandra0907-jpg/mirage-pot">mirage-pot</a></h3>
         <p><strong>Adaptive Deception SSH Honeypot & Live Attack HUD in Python</strong></p>
         <p>An asynchronous deception environment designed to trap, track, and profile automated botnet brute-forces and human attackers.</p>
+        <ul>
+          <li><strong>Async Core:</strong> Non-blocking <code>asyncssh</code> server handling hundreds of concurrent brute-force sessions.</li>
+          <li><strong>Stateful In-Memory VFS:</strong> Sandboxed <code>VNode</code> hierarchy isolated per attacker session with copy-on-write simulation.</li>
+          <li><strong>Dynamic Canaries:</strong> On-the-fly generation of traceable credentials when reading <code>.env</code> or <code>id_rsa</code>.</li>
+          <li><strong>MITRE Telemetry:</strong> Regex/AST command mapping (<code>T1082</code>, <code>T1003</code>, <code>T1105</code>) to JSONL event streams.</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/Python-AsyncIO-3776AB?style=flat-square&logo=python" />
+          <img src="https://img.shields.io/badge/Security-MITRE_ATT%26CK-E02424?style=flat-square" />
+          <img src="https://img.shields.io/badge/UI-Rich_Live_HUD-7C3AED?style=flat-square" />
