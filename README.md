@@ -10,4 +10,25 @@
   </a>
 </p>
 
+[![GitHub followers](https://img.shields.io/github/followers/omchandra0907-jpg?style=for-the-badge&logo=github&color=00e5ff&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
+[![Status: Active Research](https://img.shields.io/badge/Status-Active_Research-00ff88?style=for-the-badge&logo=statuspage&logoColor=00ff88&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
+
 </div>
+
+---
+
+### 💻 `$ whoami --extended`
+
+```bash
+om@workstation:~$ neofetch --cyberpunk
+ --------------------------- 
+ OS: Arch Linux x86_64 [Kernel 6.x Low-Latency Zen]
+ Host: Systems Research Lab
+ Uptime: 24/7/365
+ Shell: zsh 5.9 + tmux
+ Primary Languages: C99/C11, Python 3.10+, TypeScript 5.3+, Bash
+ Core Specializations: Low-overhead systems, deception engineering, applied cryptanalysis, real-time DSP
+ Architecture Philosophy: Cache locality, zero unnecessary heap allocations, single-syscall I/O
+ Status: 🟢 Open for systems architecture, security research, and high-performance computing
+ --------------------------- 
+```
