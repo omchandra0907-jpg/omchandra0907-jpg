@@ -209,3 +209,18 @@ Every project is engineered for production-grade rigor, featuring modular archit
       </td>
     </tr>
   </tbody>
+</table>
+
+---
+
+### 🛠️ Architecture & Technical Skills
+
+<div align="center">
+
+| Technical Domain | Core Competencies, Languages & Frameworks |
+|:---|:---|
+| **Low-Level Systems** | `C (C99/C11)`, `POSIX APIs`, `termios`, `Linux Kernel Internals`, `Memory Cache Locality`, `Zero-Copy Buffers`, `Valgrind`, `AddressSanitizer (ASan)`, `UndefinedBehaviorSanitizer (UBSan)`, `GNU Make` |
+| **Cybersecurity & Deception** | `Adaptive Honeypots`, `In-Memory POSIX VFS`, `Canary Token Injection`, `MITRE ATT&CK Mapping`, `Intrusion Analysis`, `Network Protocol Emulation (SSH)`, `Reverse Engineering` |
+| **Applied Cryptography** | `Argon2id KDF`, `AES-256-GCM`, `ChaCha20-Poly1305`, `LSB Steganography`, `Cryptographic PRNG Scattering`, `Entropy & Chi-Square Statistical Analysis` |
+| **3D Graphics & Visual Computing** | `TypeScript`, `Three.js`, `WebGL`, `GPU Instancing (InstancedMesh)`, `Squarified Treemaps`, `GLSL Shaders`, `Canvas API`, `Vite`, `Vitest` |
+| **Signal Processing & ML** | `Fast Fourier Transform (rFFT)`, `Hann/Hamming Windowing`, `Logarithmic Filterbanks`, `MFCCs`, `Spectral Flux`, `NumPy`, `SciPy`, `scikit-learn`, `Circular Ring Buffers` |
