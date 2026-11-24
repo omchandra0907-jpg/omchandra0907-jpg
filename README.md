@@ -1,270 +1,127 @@
 <div align="center">
 
-# ⚡ Om Chandra (`@omchandra0907-jpg`)
+# ⚡ OM CHANDRA
 
 ### **Systems Architect • Security Researcher • Creative Technologist**
 
 <p align="center">
-  <a href="https://github.com/omchandra0907-jpg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=620&lines=Low-Level+Systems+%E2%80%A2+C99+Cellular+Engines;Adaptive+Deception+%E2%80%A2+In-Memory+SSH+Sandboxes;Deniable+Steganography+%E2%80%A2+Argon2id+%26+AES-256;3D+Codebase+Metropolis+%E2%80%A2+Three.js+WebGL;Real-Time+DSP+%E2%80%A2+48-Band+FFT+%26+Acoustic+ML" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=620&lines=Low-Level+Systems+%E2%80%A2+C99+Cellular+Engines;Adaptive+Deception+%E2%80%A2+In-Memory+POSIX+Sandboxes;Applied+Cryptography+%E2%80%A2+Argon2id+%26+AES-256;3D+Metropolis+Cartography+%E2%80%A2+Three.js+WebGL;Real-Time+DSP+%E2%80%A2+48-Band+Logarithmic+rFFT" alt="Typing SVG" />
 </p>
 
-[![GitHub followers](https://img.shields.io/github/followers/omchandra0907-jpg?style=for-the-badge&logo=github&color=00e5ff&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
-[![Status: Active Research](https://img.shields.io/badge/Status-Active_Research-00ff88?style=for-the-badge&logo=statuspage&logoColor=00ff88&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
-[![Email](https://img.shields.io/badge/Contact-omchandra0907%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:omchandra0907@gmail.com)
+<p align="center">
+  <code>Systems Philosophy: Cache locality · Zero heap allocation in hot paths · Single-syscall I/O</code>
+</p>
+
+<p align="center">
+  <a href="https://github.com/omchandra0907-jpg"><img src="https://img.shields.io/badge/GitHub-omchandra0907--jpg-0d1117?style=flat-square&logo=github&logoColor=00e5ff" alt="GitHub" /></a>
+  <a href="mailto:omchandra0907@gmail.com"><img src="https://img.shields.io/badge/Email-omchandra0907%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email" /></a>
+  <a href="https://github.com/omchandra0907-jpg"><img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2_Shipping_High--Performance_Engines-0d1117?style=flat-square&logo=statuspage&logoColor=00ff88" alt="Status" /></a>
+</p>
 
 </div>
 
 ---
 
-### 💻 `$ whoami --extended`
+### 👾 `$ whoami`
 
-```bash
-om@workstation:~$ neofetch --cyberpunk
- --------------------------- 
- OS: Arch Linux x86_64 [Kernel 6.x Low-Latency Zen]
- Host: Systems Research Lab
- Uptime: 24/7/365
- Shell: zsh 5.9 + tmux
- Primary Languages: C99/C11, Python 3.10+, TypeScript 5.3+, Bash
- Core Specializations: Low-overhead systems, deception engineering, applied cryptanalysis, real-time DSP
- Architecture Philosophy: Cache locality, zero unnecessary heap allocations, single-syscall I/O
- Status: 🟢 Open for systems architecture, security research, and high-performance computing
- --------------------------- 
+I build **low-level systems**, **deception honeypots**, **applied cryptographic dead-drops**, and **GPU-accelerated computational graphics**. My engineering sits at the boundary where memory cache locality, in-memory sandboxing, and real-time mathematical signal processing meet.
+
+```c
+typedef struct {
+    const char *handle;       /* @omchandra0907-jpg */
+    const char *role;         /* Systems Architect & Security Researcher */
+    const char *core_stack[]; /* C99/C11, Python (AsyncIO/NumPy/SciPy), TypeScript (Three.js), Bash */
+    const char *focus[];      /* Low-Latency Engines, In-Memory Sandboxing, Steganography, Real-Time DSP */
+    const char *principles;   /* Spatial cache locality, atomic I/O, zero unnecessary allocations */
+    const char *environment;  /* Arch Linux x86_64 · Zen Low-Latency Kernel · Hyprland */
+    const char *fuel;         /* Espresso + Dark Chocolate ☕ */
+    const char *weakness;     /* Optimizing inner loops past compiler -O3 */
+} Engineer_t;
 ```
 
 ---
 
-### 🌟 Flagship Engineering Projects
+### 🏆 Hall of Milestones & Engineering Benchmarks
 
-Every project is engineered for production-grade rigor, featuring modular architectures, strict unit test suites, headless CI pipelines, and **interactive live web visualizers**.
-
-<table>
-  <thead>
-    <tr>
-      <th width="50%">Project & Core Architecture</th>
-      <th width="50%">Technical Capabilities & Live Demos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Project 1: alchem-c -->
-    <tr>
-      <td valign="top">
-        <h3>🔥 <a href="https://github.com/omchandra0907-jpg/alchem-c">alchem-c</a></h3>
-        <p><strong>Terminal Falling-Sand & Chemical Reaction Engine in Pure C99</strong></p>
-        <p>A cache-friendly cellular automata engine capable of simulating thousands of interacting particles at a locked 60 FPS.</p>
-        <ul>
-          <li><strong>Memory Layout:</strong> Contiguous 1D <code>cell_t *grid</code> array (spatial cache locality, zero pointer fragmentation).</li>
-          <li><strong>Bit-Packed Cells:</strong> 4-byte struct (<code>type</code>, <code>clock</code>, <code>life</code>, <code>tint</code>).</li>
-          <li><strong>Unbiased Physics:</strong> Alternating horizontal sweep direction prevents directional drift.</li>
-          <li><strong>Render Engine:</strong> Single-syscall ANSI 24-bit TrueColor half-block (<code>▀</code>) compositor.</li>
-        </ul>
-        <p>
-          <img src="https://img.shields.io/badge/C-C99-00599C?style=flat-square&logo=c" />
-          <img src="https://img.shields.io/badge/Physics-Cellular_Automata-FF6D00?style=flat-square" />
-          <img src="https://img.shields.io/badge/Sanitizers-ASan_%26_UBSan-00E676?style=flat-square" />
-        </p>
-      </td>
-      <td valign="top">
-        <br/>
-        <p align="center">
-          <a href="https://omchandra0907-jpg.github.io/alchem-c/">
-            <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Online_Canvas_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="alchem-c Live Demo" />
-          </a>
-        </p>
-        <p><strong>Interactive Web Visualizer:</strong> Full HTML5 Canvas falling-sand simulator featuring Sand, Water, Lava, Acid, Gunpowder, Steam, Fire, and Stone. Includes reactive explosion physics, brush resizing, and retro CRT scanlines.</p>
-        <p>
-          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/alchem-c">github.com/omchandra0907-jpg/alchem-c</a><br/>
-          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/alchem-c/">omchandra0907-jpg.github.io/alchem-c</a>
-        </p>
-      </td>
-    </tr>
-    <!-- Project 2: mirage-pot -->
-    <tr>
-      <td valign="top">
-        <h3>🛡️ <a href="https://github.com/omchandra0907-jpg/mirage-pot">mirage-pot</a></h3>
-        <p><strong>Adaptive Deception SSH Honeypot & Live Attack HUD in Python</strong></p>
-        <p>An asynchronous deception environment designed to trap, track, and profile automated botnet brute-forces and human attackers.</p>
-        <ul>
-          <li><strong>Async Core:</strong> Non-blocking <code>asyncssh</code> server handling hundreds of concurrent brute-force sessions.</li>
-          <li><strong>Stateful In-Memory VFS:</strong> Sandboxed <code>VNode</code> hierarchy isolated per attacker session with copy-on-write simulation.</li>
-          <li><strong>Dynamic Canaries:</strong> On-the-fly generation of traceable credentials when reading <code>.env</code> or <code>id_rsa</code>.</li>
-          <li><strong>MITRE Telemetry:</strong> Regex/AST command mapping (<code>T1082</code>, <code>T1003</code>, <code>T1105</code>) to JSONL event streams.</li>
-        </ul>
-        <p>
-          <img src="https://img.shields.io/badge/Python-AsyncIO-3776AB?style=flat-square&logo=python" />
-          <img src="https://img.shields.io/badge/Security-MITRE_ATT%26CK-E02424?style=flat-square" />
-          <img src="https://img.shields.io/badge/UI-Rich_Live_HUD-7C3AED?style=flat-square" />
-        </p>
-      </td>
-      <td valign="top">
-        <br/>
-        <p align="center">
-          <a href="https://omchandra0907-jpg.github.io/mirage-pot/">
-            <img src="https://img.shields.io/badge/🚀_Live_Demo-Interactive_Terminal_Sandbox-00E5FF?style=for-the-badge&labelColor=0d1117" alt="mirage-pot Live Demo" />
-          </a>
-        </p>
-        <p><strong>Interactive Web SOC HUD:</strong> Simulated SSH terminal emulator + live Security Operations Center (SOC) dashboard. Features MITRE classification badges, canary alert triggers, and keystroke replay controls.</p>
-        <p>
-          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/mirage-pot">github.com/omchandra0907-jpg/mirage-pot</a><br/>
-          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/mirage-pot/">omchandra0907-jpg.github.io/mirage-pot</a>
-        </p>
-      </td>
-    </tr>
-    <!-- Project 3: ghost-drop -->
-    <tr>
-      <td valign="top">
-        <h3>👻 <a href="https://github.com/omchandra0907-jpg/ghost-drop">ghost-drop</a></h3>
-        <p><strong>Deniable Encryption & Steganographic Dead-Drop CLI in Python</strong></p>
-        <p>A coercion-proof cryptographic dead-drop tool providing plausible deniability via dual authenticated payloads embedded inside PNG images.</p>
-        <ul>
-          <li><strong>Deniable Architecture:</strong> Decoy passphrase decrypts innocent text; real passphrase unlocks hidden sensitive data.</li>
-          <li><strong>Cryptographic Framing:</strong> Argon2id KDF derivation, 16-byte random salt, and AES-256-GCM authentication.</li>
-          <li><strong>Zero Collision PRNG:</strong> NumPy vectorized coordinate permutation guarantees zero overlapping LSB positions.</li>
-          <li><strong>Entropy Masking:</strong> Uniform random noise (<code>os.urandom</code>) overwrites all untouched bits, achieving PSNR &gt; 51 dB.</li>
-        </ul>
-        <p>
-          <img src="https://img.shields.io/badge/Crypto-AES--256--GCM-FFD600?style=flat-square" />
-          <img src="https://img.shields.io/badge/KDF-Argon2id-00E676?style=flat-square" />
-          <img src="https://img.shields.io/badge/Stego-NumPy-013243?style=flat-square&logo=numpy" />
-        </p>
-      </td>
-      <td valign="top">
-        <br/>
-        <p align="center">
-          <a href="https://omchandra0907-jpg.github.io/ghost-drop/">
-            <img src="https://img.shields.io/badge/🚀_Live_Demo-Web_Stego_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="ghost-drop Live Demo" />
-          </a>
-        </p>
-        <p><strong>Interactive Web Cryptography Lab:</strong> Client-side deniable steganography powered by Web Crypto API (AES-GCM + PBKDF2/Argon2). Test dual embedding, inspect LSB bit-plane visual representations, and verify tamper alerts.</p>
-        <p>
-          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/ghost-drop">github.com/omchandra0907-jpg/ghost-drop</a><br/>
-          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/ghost-drop/">omchandra0907-jpg.github.io/ghost-drop</a>
-        </p>
-      </td>
-    </tr>
-    <!-- Project 4: chrono-git -->
-    <tr>
-      <td valign="top">
-        <h3>🏙️ <a href="https://github.com/omchandra0907-jpg/chrono-git">chrono-git</a></h3>
-        <p><strong>3D Git Repository Time-Machine & City Visualizer in TypeScript</strong></p>
-        <p>Renders codebases as evolving 3D neon metropolises using squarified treemaps, WebGL shaders, and GPU instancing.</p>
-        <ul>
-          <li><strong>Treemap Engine:</strong> Pure TypeScript squarified treemap layout conserving hierarchical directory boundaries.</li>
-          <li><strong>GPU Instancing:</strong> Renders entire repository structures within a single <code>THREE.InstancedMesh</code> at 60 FPS.</li>
-          <li><strong>Building Metrics:</strong> <code>Math.log2(LOC + 1)</code> mapped to building height; neon emissive decay highlights recent commits.</li>
-          <li><strong>Timeline Scrubber:</strong> Scrub backward and forward across repository commit histories in interactive 3D space.</li>
-        </ul>
-        <p>
-          <img src="https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat-square&logo=typescript" />
-          <img src="https://img.shields.io/badge/3D-Three.js-000000?style=flat-square&logo=threedotjs" />
-          <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=flat-square&logo=vite" />
-        </p>
-      </td>
-      <td valign="top">
-        <br/>
-        <p align="center">
-          <a href="https://omchandra0907-jpg.github.io/chrono-git/">
-            <img src="https://img.shields.io/badge/🚀_Live_Demo-3D_City_Visualizer-00E5FF?style=for-the-badge&labelColor=0d1117" alt="chrono-git Live Demo" />
-          </a>
-        </p>
-        <p><strong>Interactive 3D WebGL City Scroller:</strong> Direct in-browser 3D codebase visualizer with Three.js orbit controls, camera pan/zoom, commit scrubber, building inspection cards, and instant repo URL ingestion.</p>
-        <p>
-          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/chrono-git">github.com/omchandra0907-jpg/chrono-git</a><br/>
-          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/chrono-git/">omchandra0907-jpg.github.io/chrono-git</a>
-        </p>
-      </td>
-    </tr>
-    <!-- Project 5: beat-lens -->
-    <tr>
-      <td valign="top">
-        <h3>🎵 <a href="https://github.com/omchandra0907-jpg/beat-lens">beat-lens</a></h3>
-        <p><strong>Real-Time 48-Band Audio Visualizer & Mood Classifier in Python</strong></p>
-        <p>A dual-rate acoustic signal processing pipeline combining real-time frequency analysis with machine-learning mood classification.</p>
-        <ul>
-          <li><strong>Lock-Free Ingestion:</strong> Continuous circular audio ring buffer for zero-latency microphone and audio stream handling.</li>
-          <li><strong>48-Band Log rFFT:</strong> 2048-point Hann-windowed FFT mapped to 48 logarithmic bands mirroring human cochlear response.</li>
-          <li><strong>Two-Speed Architecture:</strong> 60 Hz visual TrueColor bar animation thread + 2 Hz ML acoustic inference worker.</li>
-          <li><strong>Acoustic Model:</strong> RandomForestClassifier with 13 MFCCs, spectral centroid, flux, and RMS predicting High-Energy, Chill, Lo-Fi, and Cinematic.</li>
-        </ul>
-        <p>
-          <img src="https://img.shields.io/badge/DSP-Fast_Fourier_Transform-00E5FF?style=flat-square" />
-          <img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn" />
-          <img src="https://img.shields.io/badge/Audio-MFCC-4B8BBE?style=flat-square" />
-        </p>
-      </td>
-      <td valign="top">
-        <br/>
-        <p align="center">
-          <a href="https://omchandra0907-jpg.github.io/beat-lens/">
-            <img src="https://img.shields.io/badge/🚀_Live_Demo-Web_Audio_Synth_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="beat-lens Live Demo" />
-          </a>
-        </p>
-        <p><strong>Interactive Web Audio Spectrum & Synth:</strong> Real-time 48-band Web Audio API analyzer with peak-hold decay, live microphone input, built-in synthwave melody generator, and dynamic acoustic mood predictor.</p>
-        <p>
-          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/beat-lens">github.com/omchandra0907-jpg/beat-lens</a><br/>
-          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/beat-lens/">omchandra0907-jpg.github.io/beat-lens</a>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Milestone & Benchmark | Architectural Breakthrough | Verification & Proof |
+|:---|:---|:---|
+| **`alchem-c` — Pure C99 Cellular Engine** | Locked 60 FPS terminal falling-sand simulation using 4-byte bit-packed cells and single-syscall ANSI TrueColor rendering. | Passed ASan & UBSan • 0 heap allocations during tick |
+| **`mirage-pot` — High-Concurrency Honeypot** | Isolated in-memory copy-on-write POSIX VFS sustaining hundreds of concurrent bot brute-forces with dynamic canary baiting. | 10/10 pytest suite • Zero host disk touches |
+| **`ghost-drop` — Coercion-Resistant Dead-Drop** | Plausible deniability via dual payload embedding, Argon2id KDF, AES-256-GCM framing, and uniform entropy noise equalization. | Zero pixel drift > 1 • $\text{PSNR} > 51.0\text{ dB}$ |
+| **`chrono-git` — 3D Codebase Metropolis** | GPU-instanced 3D city time-machine transforming git histories into squarified treemaps with strict area conservation. | 60 FPS WebGL rendering via single InstancedMesh |
+| **`beat-lens` — Real-Time DSP Spectral Analyzer** | Lock-free circular audio ring buffer with 48-band logarithmic Hann rFFT and real-time Mel-frequency acoustic profiling. | Sub-millisecond FFT latency • Multi-threaded 60 Hz/2 Hz |
 
 ---
 
-### 🛠️ Architecture & Technical Skills
+### 🧭 Mission Timeline
 
-<div align="center">
+```
++ Oct 2026 — 🚀 Built alchem-c: pure C99 cellular automata engine with single-syscall TrueColor compositor
++ Nov 2026 — 🛡️ Engineered mirage-pot: async deception platform with in-memory VFS & dynamic canary baiting
++ Nov 2026 — 🔐 Developed ghost-drop: coercion-proof steganographic dead-drop CLI with Argon2id & AES-GCM
++ Nov 2026 — 🏙️ Released chrono-git: 3D GPU-instanced repository visualizer using squarified treemaps
++ Nov 2026 — 🎵 Deployed beat-lens: 48-band logarithmic rFFT spectrum analyzer & real-time audio profiler
+```
 
-| Technical Domain | Core Competencies, Languages & Frameworks |
+---
+
+### 🛡️ Cyber Operations & Deception Platforms
+
+| Project | What It Does & Core Architecture | Stack |
+|:---|:---|:---|
+| **[mirage-pot](https://github.com/omchandra0907-jpg/mirage-pot)**<br/><sub>[Live Attack HUD ↗](https://omchandra0907-jpg.github.io/mirage-pot/)</sub> | **Adaptive Deception SSH Honeypot & Threat Telemetry HUD.** Non-blocking `asyncssh` server maintaining an in-memory POSIX VFS isolated per attacker connection. Generates session-unique canary credentials when `.env` or `id_rsa` are probed, maps commands to MITRE ATT&CK techniques (`T1082`, `T1003`, `T1105`, `T1070`), and captures inter-keystroke timing for authentic session replays at 1x/4x speed. | `Python 3.10+`<br/>`AsyncIO`<br/>`asyncssh`<br/>`Rich`<br/>`MITRE ATT&CK` |
+| **[ghost-drop](https://github.com/omchandra0907-jpg/ghost-drop)**<br/><sub>[Web Crypto Lab ↗](https://omchandra0907-jpg.github.io/ghost-drop/)</sub> | **Deniable Encryption & Steganographic Dead-Drop CLI.** Plausible deniability via collision-free dual payload embedding (decoy + secret) across partitioned channel domains. Derives AES-256-GCM keys and 64-bit PRNG permutation seeds using Argon2id. Overwrites untouched bits with uniform `os.urandom` noise to equalize entropy, guaranteeing strict pixel drift $\le 1$ and $\text{PSNR} > 51\text{ dB}$. | `Python 3.10+`<br/>`Argon2id`<br/>`AES-256-GCM`<br/>`NumPy`<br/>`Pillow` |
+
+---
+
+### ⚡ Low-Level Systems & Graphics Computing
+
+| Project | What It Does & Core Architecture | Stack |
+|:---|:---|:---|
+| **[alchem-c](https://github.com/omchandra0907-jpg/alchem-c)**<br/><sub>[Online Falling-Sand Lab ↗](https://omchandra0907-jpg.github.io/alchem-c/)</sub> | **Terminal Falling-Sand & Chemical Reaction Engine.** Cache-aligned 1D linear buffer (`cell_t *grid`) eliminating pointer fragmentation. Features 4-byte bit-packed cells (`type`, `clock`, `life`, `tint`), unbiased alternating horizontal sweep physics, and a single-syscall ANSI TrueColor half-block (`▀`) compositor executing at a locked 60 FPS with SGR 1006 mouse drag painting. | `C99`<br/>`termios`<br/>`POSIX`<br/>`ASan / UBSan`<br/>`GNU Make` |
+| **[chrono-git](https://github.com/omchandra0907-jpg/chrono-git)**<br/><sub>[3D City Visualizer ↗](https://omchandra0907-jpg.github.io/chrono-git/)</sub> | **3D Git Repository Time-Machine & City Visualizer.** Converts hierarchical directory trees into 2D ground coordinates using a pure TypeScript squarified treemap engine (Bruls et al.). Renders entire repositories inside a single `THREE.InstancedMesh` draw call, mapping lines of code to building heights with neon syntax palettes, emissive commit decay, and interactive timeline scrubbing. | `TypeScript 5.3`<br/>`Three.js`<br/>`WebGL`<br/>`Vite`<br/>`Vitest` |
+| **[beat-lens](https://github.com/omchandra0907-jpg/beat-lens)**<br/><sub>[Web Audio Visualizer ↗](https://omchandra0907-jpg.github.io/beat-lens/)</sub> | **Real-Time 48-Band Audio Visualizer & Acoustic Spectral Profiler.** Lock-free circular audio ring buffer with continuous ingestion. Computes 2048-point Hann-windowed real FFT magnitudes mapped into 48 logarithmic cochlear bands ($20\text{ Hz}$ – $16\text{ kHz}$) with gravity-decay peak-hold caps. Features two-speed architecture: 60 Hz ANSI TrueColor terminal bars + 2 Hz background worker extracting 13 MFCCs, spectral centroid, and spectral flux. | `Python 3.10+`<br/>`NumPy`<br/>`SciPy`<br/>`sounddevice`<br/>`Web Audio API` |
+
+---
+
+### 🧰 Technical Arsenal
+
+| Domain | Competencies, Toolchains & Protocols |
 |:---|:---|
-| **Low-Level Systems** | `C (C99/C11)`, `POSIX APIs`, `termios`, `Linux Kernel Internals`, `Memory Cache Locality`, `Zero-Copy Buffers`, `Valgrind`, `AddressSanitizer (ASan)`, `UndefinedBehaviorSanitizer (UBSan)`, `GNU Make` |
-| **Cybersecurity & Deception** | `Adaptive Honeypots`, `In-Memory POSIX VFS`, `Canary Token Injection`, `MITRE ATT&CK Mapping`, `Intrusion Analysis`, `Network Protocol Emulation (SSH)`, `Reverse Engineering` |
-| **Applied Cryptography** | `Argon2id KDF`, `AES-256-GCM`, `ChaCha20-Poly1305`, `LSB Steganography`, `Cryptographic PRNG Scattering`, `Entropy & Chi-Square Statistical Analysis` |
-| **3D Graphics & Visual Computing** | `TypeScript`, `Three.js`, `WebGL`, `GPU Instancing (InstancedMesh)`, `Squarified Treemaps`, `GLSL Shaders`, `Canvas API`, `Vite`, `Vitest` |
-| **Signal Processing & ML** | `Fast Fourier Transform (rFFT)`, `Hann/Hamming Windowing`, `Logarithmic Filterbanks`, `MFCCs`, `Spectral Flux`, `NumPy`, `SciPy`, `scikit-learn`, `Circular Ring Buffers` |
-| **Infrastructure & Tooling** | `Arch Linux`, `Git`, `GitHub Actions (CI/CD)`, `GitHub Pages`, `Docker`, `AsyncIO`, `asyncssh`, `pytest`, `Rich CLI` |
-
-</div>
+| **Systems & Low-Level** | `C99/C11`, `POSIX APIs`, `termios`, `Memory Cache Locality`, `Zero-Copy Circular Buffers`, `AddressSanitizer (ASan)`, `UndefinedBehaviorSanitizer (UBSan)`, `Valgrind`, `GNU Make` |
+| **Cybersecurity & Deception** | `Adaptive Honeypots`, `In-Memory POSIX VFS`, `Canary Credential Injection`, `MITRE ATT&CK Mapping`, `Threat Telemetry`, `Network Protocol Emulation (SSH)` |
+| **Applied Cryptography** | `Argon2id KDF`, `AES-256-GCM`, `ChaCha20-Poly1305`, `LSB Steganography`, `Cryptographic PRNG Scattering`, `Entropy & Chi-Square Statistical Testing` |
+| **Graphics & Cartography** | `TypeScript`, `Three.js`, `WebGL`, `GPU Instancing (InstancedMesh)`, `Squarified Treemaps`, `GLSL Shaders`, `Canvas API`, `Vite` |
+| **Signal Processing & DSP** | `Real Fast Fourier Transform (rFFT)`, `Hann/Hamming Windowing`, `Logarithmic Filterbanks`, `MFCCs`, `Spectral Centroid / Flux`, `NumPy`, `SciPy` |
+| **Environment & DevOps** | `Arch Linux (Zen Kernel)`, `Git`, `GitHub Actions (CI/CD)`, `GitHub Pages`, `AsyncIO`, `pytest`, `Rich CLI` |
 
 ---
 
-### 📊 GitHub Activity, Metrics & Trophies
+### 📊 Telemetry & Activity
 
 <div align="center">
 
-<a href="https://github.com/omchandra0907-jpg">
-  <img src="https://github-profile-trophy.vercel.app/?username=omchandra0907-jpg&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</a>
-
-<br/><br/>
-
-<table border="0">
-  <tr>
-    <td valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=omchandra0907-jpg&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=94a3b8" height="175" alt="GitHub Stats" />
-    </td>
-    <td valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omchandra0907-jpg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8" height="175" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api?username=omchandra0907-jpg&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=94a3b8" height="165" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omchandra0907-jpg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8" height="165" alt="Top Languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=omchandra0907-jpg&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=ff007f&currStreakLabel=00e5ff" height="160" alt="Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=omchandra0907-jpg&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=ff007f&currStreakLabel=00e5ff" height="155" alt="Streak Stats" />
 
 </div>
 
 ---
 
-### 📬 Get In Touch
+### 📬 Terminal Status & Contact
 
-- **GitHub:** [@omchandra0907-jpg](https://github.com/omchandra0907-jpg)
-- **Email:** [omchandra0907@gmail.com](mailto:omchandra0907@gmail.com)
-- **Focus Areas:** Systems programming, cybersecurity deception platforms, privacy-preserving cryptography, and interactive visual computing.
+```bash
+om@archlinux:~$ status
+🟢 Shipping low-latency systems, deception platforms & computational graphics
+om@archlinux:~$ contact --now
+Email: omchandra0907@gmail.com
+GitHub: https://github.com/omchandra0907-jpg
+```
 
 <div align="center">
-  <sub>Built with relentless curiosity & high-performance engineering. © 2026 Om Chandra.</sub>
+  <sub>Engineered with precision. All systems operational. © 2026 Om Chandra.</sub>
 </div>
