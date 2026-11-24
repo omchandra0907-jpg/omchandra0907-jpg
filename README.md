@@ -12,6 +12,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/omchandra0907-jpg?style=for-the-badge&logo=github&color=00e5ff&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
 [![Status: Active Research](https://img.shields.io/badge/Status-Active_Research-00ff88?style=for-the-badge&logo=statuspage&logoColor=00ff88&labelColor=0d1117)](https://github.com/omchandra0907-jpg)
+[![Email](https://img.shields.io/badge/Contact-omchandra0907%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:omchandra0907@gmail.com)
 
 </div>
 
@@ -32,3 +33,43 @@ om@workstation:~$ neofetch --cyberpunk
  Status: 🟢 Open for systems architecture, security research, and high-performance computing
  --------------------------- 
 ```
+
+---
+
+### 🌟 Flagship Engineering Projects
+
+Every project is engineered for production-grade rigor, featuring modular architectures, strict unit test suites, headless CI pipelines, and **interactive live web visualizers**.
+
+<table>
+  <thead>
+    <tr>
+      <th width="50%">Project & Core Architecture</th>
+      <th width="50%">Technical Capabilities & Live Demos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Project 1: alchem-c -->
+    <tr>
+      <td valign="top">
+        <h3>🔥 <a href="https://github.com/omchandra0907-jpg/alchem-c">alchem-c</a></h3>
+        <p><strong>Terminal Falling-Sand & Chemical Reaction Engine in Pure C99</strong></p>
+        <p>A cache-friendly cellular automata engine capable of simulating thousands of interacting particles at a locked 60 FPS.</p>
+        <ul>
+          <li><strong>Memory Layout:</strong> Contiguous 1D <code>cell_t *grid</code> array (spatial cache locality, zero pointer fragmentation).</li>
+          <li><strong>Bit-Packed Cells:</strong> 4-byte struct (<code>type</code>, <code>clock</code>, <code>life</code>, <code>tint</code>).</li>
+          <li><strong>Unbiased Physics:</strong> Alternating horizontal sweep direction prevents directional drift.</li>
+          <li><strong>Render Engine:</strong> Single-syscall ANSI 24-bit TrueColor half-block (<code>▀</code>) compositor.</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/C-C99-00599C?style=flat-square&logo=c" />
+          <img src="https://img.shields.io/badge/Physics-Cellular_Automata-FF6D00?style=flat-square" />
+          <img src="https://img.shields.io/badge/Sanitizers-ASan_%26_UBSan-00E676?style=flat-square" />
+        </p>
+      </td>
+      <td valign="top">
+        <br/>
+        <p align="center">
+          <a href="https://omchandra0907-jpg.github.io/alchem-c/">
+            <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Online_Canvas_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="alchem-c Live Demo" />
+          </a>
+        </p>
