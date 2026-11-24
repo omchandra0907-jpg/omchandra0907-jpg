@@ -73,3 +73,16 @@ Every project is engineered for production-grade rigor, featuring modular archit
             <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Online_Canvas_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="alchem-c Live Demo" />
           </a>
         </p>
+        <p><strong>Interactive Web Visualizer:</strong> Full HTML5 Canvas falling-sand simulator featuring Sand, Water, Lava, Acid, Gunpowder, Steam, Fire, and Stone. Includes reactive explosion physics, brush resizing, and retro CRT scanlines.</p>
+        <p>
+          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/alchem-c">github.com/omchandra0907-jpg/alchem-c</a><br/>
+          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/alchem-c/">omchandra0907-jpg.github.io/alchem-c</a>
+        </p>
+      </td>
+    </tr>
+    <!-- Project 2: mirage-pot -->
+    <tr>
+      <td valign="top">
+        <h3>🛡️ <a href="https://github.com/omchandra0907-jpg/mirage-pot">mirage-pot</a></h3>
+        <p><strong>Adaptive Deception SSH Honeypot & Live Attack HUD in Python</strong></p>
+        <p>An asynchronous deception environment designed to trap, track, and profile automated botnet brute-forces and human attackers.</p>
