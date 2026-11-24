@@ -182,3 +182,13 @@ Every project is engineered for production-grade rigor, featuring modular archit
         <h3>🎵 <a href="https://github.com/omchandra0907-jpg/beat-lens">beat-lens</a></h3>
         <p><strong>Real-Time 48-Band Audio Visualizer & Mood Classifier in Python</strong></p>
         <p>A dual-rate acoustic signal processing pipeline combining real-time frequency analysis with machine-learning mood classification.</p>
+        <ul>
+          <li><strong>Lock-Free Ingestion:</strong> Continuous circular audio ring buffer for zero-latency microphone and audio stream handling.</li>
+          <li><strong>48-Band Log rFFT:</strong> 2048-point Hann-windowed FFT mapped to 48 logarithmic bands mirroring human cochlear response.</li>
+          <li><strong>Two-Speed Architecture:</strong> 60 Hz visual TrueColor bar animation thread + 2 Hz ML acoustic inference worker.</li>
+          <li><strong>Acoustic Model:</strong> RandomForestClassifier with 13 MFCCs, spectral centroid, flux, and RMS predicting High-Energy, Chill, Lo-Fi, and Cinematic.</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/DSP-Fast_Fourier_Transform-00E5FF?style=flat-square" />
+          <img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn" />
+          <img src="https://img.shields.io/badge/Audio-MFCC-4B8BBE?style=flat-square" />
