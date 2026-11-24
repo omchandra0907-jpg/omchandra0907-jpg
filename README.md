@@ -192,3 +192,20 @@ Every project is engineered for production-grade rigor, featuring modular archit
           <img src="https://img.shields.io/badge/DSP-Fast_Fourier_Transform-00E5FF?style=flat-square" />
           <img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn" />
           <img src="https://img.shields.io/badge/Audio-MFCC-4B8BBE?style=flat-square" />
+        </p>
+      </td>
+      <td valign="top">
+        <br/>
+        <p align="center">
+          <a href="https://omchandra0907-jpg.github.io/beat-lens/">
+            <img src="https://img.shields.io/badge/🚀_Live_Demo-Web_Audio_Synth_Lab-00E5FF?style=for-the-badge&labelColor=0d1117" alt="beat-lens Live Demo" />
+          </a>
+        </p>
+        <p><strong>Interactive Web Audio Spectrum & Synth:</strong> Real-time 48-band Web Audio API analyzer with peak-hold decay, live microphone input, built-in synthwave melody generator, and dynamic acoustic mood predictor.</p>
+        <p>
+          🔗 <strong>Source:</strong> <a href="https://github.com/omchandra0907-jpg/beat-lens">github.com/omchandra0907-jpg/beat-lens</a><br/>
+          🌐 <strong>Online Lab:</strong> <a href="https://omchandra0907-jpg.github.io/beat-lens/">omchandra0907-jpg.github.io/beat-lens</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
