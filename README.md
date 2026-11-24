@@ -153,3 +153,17 @@ Every project is engineered for production-grade rigor, featuring modular archit
         <ul>
           <li><strong>Treemap Engine:</strong> Pure TypeScript squarified treemap layout conserving hierarchical directory boundaries.</li>
           <li><strong>GPU Instancing:</strong> Renders entire repository structures within a single <code>THREE.InstancedMesh</code> at 60 FPS.</li>
+          <li><strong>Building Metrics:</strong> <code>Math.log2(LOC + 1)</code> mapped to building height; neon emissive decay highlights recent commits.</li>
+          <li><strong>Timeline Scrubber:</strong> Scrub backward and forward across repository commit histories in interactive 3D space.</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat-square&logo=typescript" />
+          <img src="https://img.shields.io/badge/3D-Three.js-000000?style=flat-square&logo=threedotjs" />
+          <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=flat-square&logo=vite" />
+        </p>
+      </td>
+      <td valign="top">
+        <br/>
+        <p align="center">
+          <a href="https://omchandra0907-jpg.github.io/chrono-git/">
+            <img src="https://img.shields.io/badge/🚀_Live_Demo-3D_City_Visualizer-00E5FF?style=for-the-badge&labelColor=0d1117" alt="chrono-git Live Demo" />
