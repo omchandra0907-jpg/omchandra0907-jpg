@@ -113,3 +113,13 @@ Every project is engineered for production-grade rigor, featuring modular archit
       </td>
     </tr>
     <!-- Project 3: ghost-drop -->
+    <tr>
+      <td valign="top">
+        <h3>👻 <a href="https://github.com/omchandra0907-jpg/ghost-drop">ghost-drop</a></h3>
+        <p><strong>Deniable Encryption & Steganographic Dead-Drop CLI in Python</strong></p>
+        <p>A coercion-proof cryptographic dead-drop tool providing plausible deniability via dual authenticated payloads embedded inside PNG images.</p>
+        <ul>
+          <li><strong>Deniable Architecture:</strong> Decoy passphrase decrypts innocent text; real passphrase unlocks hidden sensitive data.</li>
+          <li><strong>Cryptographic Framing:</strong> Argon2id KDF derivation, 16-byte random salt, and AES-256-GCM authentication.</li>
+          <li><strong>Zero Collision PRNG:</strong> NumPy vectorized coordinate permutation guarantees zero overlapping LSB positions.</li>
+          <li><strong>Entropy Masking:</strong> Uniform random noise (<code>os.urandom</code>) overwrites all untouched bits, achieving PSNR &gt; 51 dB.</li>
