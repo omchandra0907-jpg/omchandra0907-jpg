@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none';" />
+
+  <title>Om Chandra · Cybersecurity &amp; Systems Engineer</title>
+  <meta name="description" content="Om Chandra — B.Cyber undergraduate at IIT Madras. Building low-level systems, cryptographic engines, and digital logic analyzers from scratch on Linux." />
+  <meta name="author" content="Om Chandra" />
+  <meta name="theme-color" content="#060911" />
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://omchandra.me/" />
+  <meta property="og:title" content="Om Chandra · Cybersecurity &amp; Systems Engineer" />
+  <meta property="og:description" content="B.Cyber @ IIT Madras. Low-level systems, cryptographic toolchains, and hardware security analyzers." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Om Chandra · Cybersecurity &amp; Systems Engineer" />
+  <meta name="twitter:description" content="B.Cyber @ IIT Madras. Low-level systems, cryptographic toolchains, and hardware security analyzers." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Typography Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard accessibility -->
+  <a href="#about" class="skip-link">Skip to engineering canvas</a>
+
+  <div class="app-shell">
+
+    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         ASIDE: STICKY LEFT RAIL (38% on desktop)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <aside class="sticky-rail" aria-label="Identity and navigation">
+      <div class="rail-top">
+
+        <!-- Identity & Status Header -->
+        <header>
+          <div class="live-status-badge">
+            <span class="pulse-emerald" aria-hidden="true"></span>
+            <span>Available · Summer 2027 Internships</span>
+          </div>
+
+          <h1 class="profile-title" style="margin-top: var(--space-4);">Om Chandra</h1>
+          <p class="profile-headline">B.Cyber Undergraduate @ IIT Madras</p>
+
+          <!-- Cryptographic Hex-Scramble Subtitle -->
+          <div id="scramble-subtitle" class="profile-scramble" style="margin-top: var(--space-3);" aria-live="polite">
+            Low-Level Systems (C / Linux) • Applied Cryptography • Offensive &amp; Defensive Security
+          </div>
+        </header>
+
+        <!-- Neofetch Telemetry Widget -->
+        <section class="neofetch-card" aria-label="System telemetry">
+          <div class="neofetch-header">
+            <span>neofetch --telemetry</span>
+            <span style="color:var(--text-dim)">[sys0]</span>
+          </div>
+          <div class="neofetch-row">
+            <span class="neofetch-label">OS:</span>
+            <span class="neofetch-val">Arch Linux (Hyprland) / RHEL 9</span>
+          </div>
+          <div class="neofetch-row">
+            <span class="neofetch-label">INSTITUTE:</span>
+            <span class="neofetch-val">IIT Madras (B.Cyber '30)</span>
+          </div>
+          <div class="neofetch-row">
+            <span class="neofetch-label">FOCUS:</span>
+            <span class="neofetch-val">Systems, Crypto, Binary RE</span>
+          </div>
+          <div class="neofetch-row">
+            <span class="neofetch-label">DOMAIN:</span>
+            <span class="neofetch-val" style="color:var(--accent-cyan)">omchandra.me</span>
+          </div>
+        </section>
+
+        <!-- Scroll-Spy Navigation Rail -->
+        <nav class="nav-rail" aria-label="Sections">
+          <a href="#about" class="nav-rail-item active">
+            <span class="nav-rail-indicator" aria-hidden="true"></span>
+            <span>01. ABOUT</span>
+          </a>
+          <a href="#builds" class="nav-rail-item">
+            <span class="nav-rail-indicator" aria-hidden="true"></span>
+            <span>02. BUILDS</span>
+          </a>
+          <a href="#security" class="nav-rail-item">
+            <span class="nav-rail-indicator" aria-hidden="true"></span>
+            <span>03. SECURITY &amp; CTF</span>
+          </a>
+          <a href="#stack" class="nav-rail-item">
+            <span class="nav-rail-indicator" aria-hidden="true"></span>
+            <span>04. STACK</span>
+          </a>
+          <a href="#terminal" class="nav-rail-item">
+            <span class="nav-rail-indicator" aria-hidden="true"></span>
+            <span>05. TERMINAL</span>
+          </a>
+        </nav>
+
+      </div>
+
+      <!-- Left Rail Footer: Command Palette Trigger & Links -->
+      <div class="rail-footer">
+        <button type="button" id="trigger-palette-btn" class="cmd-trigger-btn" aria-label="Open Command Palette">
+          <span>Command Palette</span>
+          <span class="kbd-badge">⌘K / /</span>
+        </button>
+
+        <div class="social-links" role="list" aria-label="Social profiles">
+          <a href="https://github.com/omchandra0907-jpg" target="_blank" rel="noopener noreferrer" class="social-icon-btn" role="listitem" aria-label="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/om-chandra-198812425/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" role="listitem" aria-label="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="mailto:omchandra0907@gmail.com" class="social-icon-btn" role="listitem" aria-label="Direct Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         MAIN: SCROLLABLE ENGINEERING CANVAS (62% on desktop)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <main class="scroll-canvas" id="canvas-main">
+
+      <!-- ── SECTION 01: ABOUT & MANIFESTO ── -->
+      <section id="about" class="canvas-section" aria-labelledby="about-heading">
+        <div class="section-label" id="about-heading">01. About</div>
+        <div class="spotlight-card">
+          <p style="font-size: 0.95rem; color: var(--text-primary); line-height: 1.75;">
+            I am a first-year <strong>Bachelor of Cybersecurity (B.Cyber)</strong> student at the <strong>Indian Institute of Technology Madras (2026–2030)</strong>. My work lives at the intersection of low-level systems programming, cryptographic primitive engineering, and digital logic design.
+          </p>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.75;">
+            Rather than relying on high-level abstractions, I build parsers, simulators, and cipher suites from the metal up—writing memory-safe C verified with ASan/UBSan, developing modular Python toolchains, and operating daily in keyboard-centric Linux environments (Arch Linux with Hyprland, RHEL 9, Kali).
+          </p>
+          <div style="display:flex; gap: var(--space-4); margin-top: var(--space-2); flex-wrap: wrap;">
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-cyan);">BASE:</span>
+              <span style="font-size: 0.85rem; color: var(--text-primary);"> Chennai / Munger, India</span>
+            </div>
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-cyan);">FOCUS:</span>
+              <span style="font-size: 0.85rem; color: var(--text-primary);"> Systems, Applied Cryptography, Hardware</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SECTION 02: FEATURED BUILDS ── -->
+      <section id="builds" class="canvas-section" aria-labelledby="builds-heading">
+        <div class="section-label" id="builds-heading">02. Featured Builds</div>
+        <div class="bento-grid" id="builds-grid" role="list">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </section>
+
+      <!-- ── SECTION 03: SECURITY & CTF LOGS ── -->
+      <section id="security" class="canvas-section" aria-labelledby="security-heading">
+        <div class="section-label" id="security-heading">03. Security &amp; CTF Logs</div>
+        <div class="security-list" id="security-log-list">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </section>
+
+      <!-- ── SECTION 04: TECHNICAL STACK ── -->
+      <section id="stack" class="canvas-section" aria-labelledby="stack-heading">
+        <div class="section-label" id="stack-heading">04. Technical Stack</div>
+        <div style="display: flex; flex-direction: column; gap: var(--space-4);" id="tech-stack-wrap">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </section>
+
+      <!-- ── SECTION 05: INTERACTIVE TUI SHELL ── -->
+      <section id="terminal" class="canvas-section" aria-labelledby="terminal-heading">
+        <div class="section-label" id="terminal-heading">05. Interactive Shell</div>
+        <div class="terminal-card" id="terminal-container">
+          <div class="terminal-topbar">
+            <div class="term-dots">
+              <span class="term-dot term-dot-red"></span>
+              <span class="term-dot term-dot-yellow"></span>
+              <span class="term-dot term-dot-green"></span>
+            </div>
+            <div class="term-session-name">om@iitm: ~ (zsh)</div>
+            <div style="font-family:var(--font-mono); font-size:0.68rem; color:var(--text-dim)">TTY1</div>
+          </div>
+          <div class="terminal-scroll-area" id="terminal-output" role="log" aria-live="polite"></div>
+          <div class="terminal-input-bar">
+            <span class="term-prompt-sym">om@iitm:~$</span>
+            <input type="text" id="terminal-cli-input" class="term-cli-input" autocomplete="off" spellcheck="false" aria-label="Interactive shell input" placeholder="type 'help' or 'neofetch'..." />
+          </div>
+        </div>
+      </section>
+
+      <!-- Canvas Footer -->
+      <footer style="padding-top: var(--space-8); border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-4); font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-dim);">
+        <span>Built by Om Chandra · Zero external frameworks</span>
+        <span>Hosted at <a href="https://omchandra.me" style="color:var(--accent-cyan); text-decoration:none;">omchandra.me</a></span>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       COMMAND PALETTE MODAL (<dialog>)
+       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <dialog id="cmd-palette" class="cmd-palette-dialog" aria-label="Command Palette">
+    <div class="palette-input-wrap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-cyan)">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="palette-search-input" class="palette-input" placeholder="Type a command, project, or section..." autocomplete="off" spellcheck="false" />
+      <span class="kbd-badge">ESC</span>
+    </div>
+    <div class="palette-results" id="palette-results-list" role="listbox">
+      <!-- Dynamically filtered items -->
+    </div>
+  </dialog>
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       SLIDE-OVER ARCHITECTURE DRAWER (<dialog>)
+       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <dialog id="arch-drawer" class="arch-drawer-dialog" aria-labelledby="drawer-title">
+    <div class="drawer-header-bar">
+      <div>
+        <span style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim); letter-spacing: 0.08em;">ARCHITECTURE DEEP-DIVE</span>
+        <h2 id="drawer-title" style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin-top: 4px;">Project Title</h2>
+      </div>
+      <button type="button" id="drawer-close-btn" class="drawer-close-btn" aria-label="Close architecture drawer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="drawer-content-body" id="drawer-body">
+      <!-- Populated dynamically from js/drawer.js -->
+    </div>
+  </dialog>
+
+  <!-- Application Entry Script (ES Module) -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
