@@ -224,3 +224,24 @@ Every project is engineered for production-grade rigor, featuring modular archit
 | **Applied Cryptography** | `Argon2id KDF`, `AES-256-GCM`, `ChaCha20-Poly1305`, `LSB Steganography`, `Cryptographic PRNG Scattering`, `Entropy & Chi-Square Statistical Analysis` |
 | **3D Graphics & Visual Computing** | `TypeScript`, `Three.js`, `WebGL`, `GPU Instancing (InstancedMesh)`, `Squarified Treemaps`, `GLSL Shaders`, `Canvas API`, `Vite`, `Vitest` |
 | **Signal Processing & ML** | `Fast Fourier Transform (rFFT)`, `Hann/Hamming Windowing`, `Logarithmic Filterbanks`, `MFCCs`, `Spectral Flux`, `NumPy`, `SciPy`, `scikit-learn`, `Circular Ring Buffers` |
+| **Infrastructure & Tooling** | `Arch Linux`, `Git`, `GitHub Actions (CI/CD)`, `GitHub Pages`, `Docker`, `AsyncIO`, `asyncssh`, `pytest`, `Rich CLI` |
+
+</div>
+
+---
+
+### 📊 GitHub Activity, Metrics & Trophies
+
+<div align="center">
+
+<a href="https://github.com/omchandra0907-jpg">
+  <img src="https://github-profile-trophy.vercel.app/?username=omchandra0907-jpg&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</a>
+
+<br/><br/>
+
+<table border="0">
+  <tr>
+    <td valign="middle">
+      <img src="https://github-readme-stats.vercel.app/api?username=omchandra0907-jpg&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=94a3b8" height="175" alt="GitHub Stats" />
+    </td>
